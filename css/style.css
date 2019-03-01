@@ -1,0 +1,101 @@
+*{
+    font-family: Century Gothic ;
+}
+header{
+    background-color: azure
+}
+ul{
+    list-style-type: none;
+    margin-left:600px ;
+    margin-top: 10px;
+}
+ul li {
+    display: inline-block;
+}
+ ul li a{
+     text-decoration: none;
+     padding:5px 20px;
+     transition: 0.6s ease; 
+ }
+ ul li a:hover{
+     background-color:whitesmoke;
+     color: black;
+ }
+ .logo img{
+     float: left;
+     width: 150px;
+     height: auto;
+ }
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.background-image{
+    background-image: url("https://wallpaperplay.com/walls/full/a/7/4/211882.jpg");
+    width: auto;
+    height: 200px;
+    margin-top: 2px;
+    background-size: cover;
+}
+.box{
+    width: 70%;
+    height: 15px;
+    background;
+    margin: auto;
+}
+
+
+  .flex-cont > div {
+      margin: 1px;
+      font-size: 20px;
+      padding-left:75px;
+      padding-right:75px;
+      background-color:white;
+      padding-top: 15px;
+      margin-top: 15px solid ;
+      display: inline-block;
+      text-decoration: white;
+      border-top: 10px solid yellow;
+      
+
+  }
+
+  .flex-cont{
+    display: flex;
+    margin-left:40px;
+}
+
+  div a {
+      background-color:transparent;
+      transition: 0.7s ease;
+  }
+  div a:hover{
+      background-color: rgb(240, 240, 231);
+      color: red
+  }
+  .box2{
+    width: 60%;
+    height: 15px;
+    background:white;
+    margin:2px;
+    margin-left:322px;
+    margin-top: -2px;
+  }
+.background-image ul.flt-ret{
+    display: inline-block;
+    font-size: 20px;
+    background-color:white;
+    margin-left:300px; 
+    margin-top: 10px;
+    padding-right:600px;
+    border: 1px solid white; 
+  }
+  .background-image ul.tofrom .temp1 { 
+    display: inline-block;
+    font-size: 20px;
+    background-color:white;
+    margin-top: -2.5px;
+    padding-right:600px;
+    border: 1px solid white; 
+
+  }
