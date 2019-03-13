@@ -2,6 +2,7 @@
     <head>
         <title>flipkart</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="javascript/myScript.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -112,17 +113,10 @@
                             </div>
                             <div>    
                             <div style="display:flex;flex-direction:row;">
-                                    <div>    
-                                        <form>
-                                                <input type="text" name="" value="first name" style="width:300px;height:50px;margin: 20px;">
-                                        </form>
-                                    </div>
-                                    <div>
-                                            <form>
-                                                    <input type="text" name="" value="Last name" style="width:300px;height:50px;margin: 20px;">
-                                            </form>
-                                    </div>
-                                </div>
+                                First Name : <input type="text" id="fn">
+                                last  Name : <input type="text" id="ln">
+                                <button onclick="fname()"> submit </button>
+                            </div>
                             </div>
                         </div>   
                         
@@ -141,12 +135,12 @@
                             <div style="display:flex;flex-direction:row;">
                                     <div>    
                                         <form>
-                                                <input type="checkbox"  value="male"style="margin: 20px;">
+                                            <input type="radio" name="gender" value="male"> Male
                                         </form>
                                     </div>
                                     <div>
                                             <form>
-                                                    <input type="checkbox" name="female" value="female" style="margin: 20px;">
+                                                <input type="radio" name="gender" value="female"> Female
                                             </form>
                                     </div>
                                 </div>
@@ -206,6 +200,17 @@
         
                         </div>
 
+
+                </div>
+                <div class="entereddetails">
+                    <ul>
+                        <li> first name :<p id="output"></p> </li>
+                        <li> last name :  </li>
+                        <li>Full name :</li>
+                        <li> gender : </li>
+                        <li> email address : </li>
+                        <li> phone number :  </li>
+                    </ul>
 
                 </div>
                 <div style="margin-left:20px;">

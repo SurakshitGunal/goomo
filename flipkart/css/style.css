@@ -42,7 +42,6 @@ font-size: 20px;
     justify-content: center;
     right: 0;
     left: 0;
-    margin-top:43px;
     padding: 10px;
     width: 100%;
     padding-right: 150px;
@@ -54,7 +53,7 @@ font-size: 20px;
       flex-direction: row;
       max-width: 1200px;
       margin: auto;
-      margin-top: 130px;
+      margin-top: 90px;
 
   }
   .childb1{
@@ -106,7 +105,7 @@ font-size: 20px;
 }
 .bb{
     width:810px;
-    height:1200px;
+    height:1335px;
     background-color: white;
     margin: 10px;
     box-shadow: 2px 2px gray;
@@ -121,4 +120,14 @@ font-size: 20px;
     position: unset;
     bottom: 0;
     background-color: blue;
+}
+.entereddetails{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    height:190px;
+    border: 1px solid black;
+    box-shadow: 2px 2px gray;
+    margin-top: 1px;
+    background-color: white;
 }
