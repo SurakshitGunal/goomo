@@ -22,11 +22,23 @@
     }
   }
   function mail(){
-    var mail = document.getElementById("email").value;
-    document.getElementById("outputmail").innerHTML= mail;
-  }
+    var x=document.getElementById("email1").value;  
+    var atposition=x.indexOf("@");  
+    var dotposition=x.lastIndexOf(".");  
+    if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+      alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+      return false;  
+      }    
+    document.getElementById("outputmail").innerHTML= x;
+    }
+
   function mbn(){
     var mn = document.getElementById("mb").value;
+    if(mb.value == "") {
+      window.alert("Error: Cell number must not be null.");
+      number.focus();
+      return false;
+  }
     document.getElementById("outputnu").innerHTML= mn;
   }
   
