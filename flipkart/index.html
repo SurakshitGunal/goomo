@@ -34,7 +34,7 @@
                             <div class="arrow-down"></div>
                         </div>
                         </div>
-                        <div style="border: 10px solid transparent"> chart</div>   
+                        <div style="border: 10px solid transparent"> cart</div>   
                     </div>
 
                 </div>
@@ -76,7 +76,7 @@
 
             </div>
         </header>
-       <div style="background-color:rgb(244, 246, 248);width: 100%; height:1340px">
+       <div style="background-color:rgb(244, 246, 248);width: 100%; height:2000px">
           <div class="childb">
              <div class="childb1">
                  <div class="childb1a">
@@ -108,14 +108,14 @@
                         <div style="display:flex;flex-direction:column">
                             <div>
                             <div style="display:flex;flex-direction:row">
-                                <div style="font-size 20px;margin:20px"><strong>Personal Information</strong></div>
+                                <div style="font-size:20px ;margin: 20px"><strong>Personal Information</strong></div>
                                 <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">edit</a></div>
                             </div>
                             <div>    
-                            <div style="display:flex;flex-direction:row;">
+                            <div style="display:flex;flex-direction:row; margin: 20px">
                                 First Name : <input type="text" id="fn">
                                 last  Name : <input type="text" id="ln">
-                                <button onclick="fname()"> submit </button>
+      
                             </div>
                             </div>
                         </div>   
@@ -128,20 +128,16 @@
                         <div style="display:flex;flex-direction:column">
                             <div>
                             <div style="display:flex;flex-direction:row">
-                                <div style="font-size 20px;margin:20px"><strong>Your Gender</strong></div>
+                                <div style="font-size:20px;margin:20px"><strong>Your Gender</strong></div>
                                 <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">edit</a></div>
                             </div>
                             <div>    
-                            <div style="display:flex;flex-direction:row;">
-                                    <div>    
-                                        <form>
-                                            <input type="radio" name="gender" value="male"> Male
-                                        </form>
-                                    </div>
-                                    <div>
-                                            <form>
-                                                <input type="radio" name="gender" value="female"> Female
-                                            </form>
+                            <div style="display:flex;flex-direction:row; margin: 20px ">
+                                    <div> 
+                                            <input type="radio" id="gender" name="gender" value="male"> Male
+                                                <input type="radio" id="gender" name="gender" value="female"> Female
+
+
                                     </div>
                                 </div>
                             </div>
@@ -157,16 +153,15 @@
                                 <div style="display:flex;flex-direction:column">
                                     <div>
                                     <div style="display:flex;flex-direction:row">
-                                        <div style="font-size 20px;margin:20px"><strong>Email address</strong></div>
+                                        <div style="font-size:20px;margin:20px"><strong>Email address</strong></div>
                                         <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">edit</a></div>
                                         <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">change email</a></div>
                                     </div>
                                     <div>    
-                                    <div style="display:flex;flex-direction:row;">
+                                    <div style="display:flex;flex-direction:row;  margin: 20px">
                                             <div>    
-                                                <form>
-                                                        <input type="text" name="" value="@gmail.com" style="width:300px;height:50px;margin: 20px;">
-                                                </form>
+                                                Email: <input type="text" name="email" id="email1"><br/>  
+                                                   
                                             </div>
                                          </div>
                                     </div>
@@ -182,15 +177,16 @@
                                 <div style="display:flex;flex-direction:column">
                                     <div>
                                     <div style="display:flex;flex-direction:row">
-                                        <div style="font-size 20px;margin:20px"><strong>Mobile Number</strong></div>
+                                        <div style="font-size:20px;margin:20px"><strong>Mobile Number</strong></div>
                                         <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">edit</a></div>
                                     </div>
                                     <div>    
-                                    <div style="display:flex;flex-direction:row;">
+                                    <div style="display:flex;flex-direction:row; margin: 20px">
                                             <div>    
-                                                <form>
-                                                        <input type="text" name="" value="+91 " style="width:300px;height:50px;margin: 20px;">
-                                                </form>
+                                                       Mobile Number: <input type="text" name="" id="mb" value="" maxlength="10" placeholder="mobile number" style="width:300px;height:50px;margin: 20px;">
+                                                        <br><button style="margin-left:350px; margin-top:20px" onclick="fname()"> submit </button>
+                                                        <button style="margin-left:350px; margin-top:20px" onclick="show();">view personal details </button>
+                                                          
                                             </div>
                                          </div>
                                     </div>
@@ -199,19 +195,17 @@
                             </div>
         
                         </div>
-
-
-                </div>
+                 </div>
                 <div class="entereddetails">
                     <ul>
-                        <li> first name :<p id="output"></p> </li>
-                        <li> last name :  </li>
-                        <li>Full name :</li>
-                        <li> gender : </li>
-                        <li> email address : </li>
-                        <li> phone number :  </li>
+                        <li> first name :<p id="outputfn"></p> </li>
+                        <li> last name :<p id="outputln"></p>  </li>
+                        <li>Full name : <p id="outputfl"></p></li>
+                        <li> gender :<p id="outputgender"></p> </li>
+                        <li> email address :<p id="outputmail"></p> </li>
+                        <li> phone number :<p id="outputnu"></p>  </li>
                     </ul>
-
+                    
                 </div>
                 <div style="margin-left:20px;">
                     <p>FAQs<br>
