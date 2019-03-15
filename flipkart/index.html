@@ -108,14 +108,14 @@
                         <div style="display:flex;flex-direction:column">
                             <div>
                             <div style="display:flex;flex-direction:row">
-                                <div style="font-size20px;margin:20px"><strong>Personal Information</strong></div>
+                                <div style="font-size:20px ;margin: 20px"><strong>Personal Information</strong></div>
                                 <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">edit</a></div>
                             </div>
                             <div>    
-                            <div style="display:flex;flex-direction:row;">
+                            <div style="display:flex;flex-direction:row; margin: 20px">
                                 First Name : <input type="text" id="fn">
                                 last  Name : <input type="text" id="ln">
-                                <button onclick="fname()"> submit </button>
+      
                             </div>
                             </div>
                         </div>   
@@ -132,11 +132,11 @@
                                 <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">edit</a></div>
                             </div>
                             <div>    
-                            <div style="display:flex;flex-direction:row;">
+                            <div style="display:flex;flex-direction:row; margin: 20px ">
                                     <div> 
                                             <input type="radio" id="gender" name="gender" value="male"> Male
                                                 <input type="radio" id="gender" name="gender" value="female"> Female
-                                                <button onclick="mfgender()"> submit </button>
+
 
                                     </div>
                                 </div>
@@ -158,11 +158,10 @@
                                         <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">change email</a></div>
                                     </div>
                                     <div>    
-                                    <div style="display:flex;flex-direction:row;">
+                                    <div style="display:flex;flex-direction:row;  margin: 20px">
                                             <div>    
                                                 Email: <input type="text" name="email" id="email1"><br/>  
-                                                  
-                                                <input type="submit" value="register" onclick="mail()">  
+                                                   
                                             </div>
                                          </div>
                                     </div>
@@ -178,14 +177,16 @@
                                 <div style="display:flex;flex-direction:column">
                                     <div>
                                     <div style="display:flex;flex-direction:row">
-                                        <div style="font-size 20px;margin:20px"><strong>Mobile Number</strong></div>
+                                        <div style="font-size:20px;margin:20px"><strong>Mobile Number</strong></div>
                                         <div style="font-size:10px; margin: 20px"><a href="http://wwww.google.com">edit</a></div>
                                     </div>
                                     <div>    
-                                    <div style="display:flex;flex-direction:row;">
+                                    <div style="display:flex;flex-direction:row; margin: 20px">
                                             <div>    
-                                                        <input type="text" name="" id="mb" value="" maxlength="10" placeholder="mobile number" style="width:300px;height:50px;margin: 20px;">
-                                                        <button onclick="mbn()"> submit </button>
+                                                       Mobile Number: <input type="text" name="" id="mb" value="" maxlength="10" placeholder="mobile number" style="width:300px;height:50px;margin: 20px;">
+                                                        <br><button style="margin-left:350px; margin-top:20px" onclick="fname()"> submit </button>
+                                                        <button style="margin-left:350px; margin-top:20px" onclick="show();">view personal details </button>
+                                                          
                                             </div>
                                          </div>
                                     </div>
@@ -194,9 +195,7 @@
                             </div>
         
                         </div>
-
-
-                </div>
+                 </div>
                 <div class="entereddetails">
                     <ul>
                         <li> first name :<p id="outputfn"></p> </li>
@@ -206,7 +205,7 @@
                         <li> email address :<p id="outputmail"></p> </li>
                         <li> phone number :<p id="outputnu"></p>  </li>
                     </ul>
-
+                    
                 </div>
                 <div style="margin-left:20px;">
                     <p>FAQs<br>

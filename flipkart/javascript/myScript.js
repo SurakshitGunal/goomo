@@ -1,5 +1,8 @@
 
  
+ function show() {
+   document.getElementById("entereddetails").style.display="entereddetails";
+ }
  function fname(){
    var firstname = document.getElementById("fn").value;
    document.getElementById("outputfn").innerHTML= firstname;
@@ -10,9 +13,6 @@
     var fullname = firstname  + lastname ;
     document.getElementById("outputfl").innerHTML=fullname; 
      
-   
-  }
-  function mfgender(){
     var male = document.getElementsByName("gender")[0].checked;
     if (!male){
       document.getElementById("outputgender").innerHTML= "female";
@@ -20,8 +20,6 @@
     else{
       document.getElementById("outputgender").innerHTML= "male";
     }
-  }
-  function mail(){
     var x=document.getElementById("email1").value;  
     var atposition=x.indexOf("@");  
     var dotposition=x.lastIndexOf(".");  
@@ -29,10 +27,7 @@
       alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
       return false;  
       }    
-    document.getElementById("outputmail").innerHTML= x;
-    }
-
-  function mbn(){
+    document.getElementById("outputmail").innerHTML= x
     var mn = document.getElementById("mb").value;
     if(mb.value == "") {
       window.alert("Error: Cell number must not be null.");
