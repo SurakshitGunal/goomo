@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+  .margin{
+   margin-left:px;
+   margin-right:px;
+   margin: 0 auto;
+  }
+  .image{
+      background-image:url("https://www.kdhptea.com/wp-content/uploads/2017/03/0002.jpg")
+  }
+  .flex-cont{
+      display:flex;
+      background-color:white;
+  }
+  .flex-cont > div {
+
+  margin: 1px;
+  padding: 2px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color:white;
+  width: 100px;
+  margin:1px
+  margin-top: 10px;
+  text-align: center;
+  line-height: 135px;
+  font-size: 15px;
+} 
+.table{
+    padding-left:200px;
+    padding-right:30px;;
+    background-color:white;
+}
+    .flex-flight{
+        display:flex;
+        justify-content: center;
+    }
+    .flex-flight > div{
+        background-color:;
+        width: 100px;
+        margin-right: px;
+        text-align:center;
+        line-height: 35px;
+        font-size: 15p;
+    }
+    a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(247, 9, 48);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(35, 194, 146);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;}
+
+  
+</style>
+<body>
+<hr>
+<div>
+  <div class=" flex-cont">
+   <div><strong>GOOMO</strong></div>
+   <div><strong><a href="https://www.goomo.com/">login</a></strong</div>
+   <div><strong><a href="https://www.goomo.com/">SIGN UP</a></strong</div>
+ </div>
+  <hr>
+  <div class="image">
+            <div class="flex-container">
+                <div><strong>Flights</strong></div>
+                    <div><strong> Hotels </strong></div>
+                   <div><strong>Packages</strong></div>
+                   <div><strong>Visa</strong></div>
+                   <div><strong>Gift Card</strong></div>
+            </div>
+            <div class="table">
+                <div class="flex-flight">
+                    <div><strong> <a href="https://www.goomo.com/flights"    target="_blank">Return</a></strong></div>
+                    <div><strong> <a href="https://www.goomo.com/flights" target="_blank">Oneway</a></strong></div>
+                    <div><strong><a href="https://www.goomo.com/flights" target="_blank">Multicity</a></strong></div>
+                      </div>
+                             <div class="tofrom">
+                             <form action="">to:
+                              <input type="text" name="userid">form: 
+                            <input type="password" name="psw">
+                             </form>
+                      </div>
+              </div>
+              </div>
+              </div>
+              </body>
+              </html>
+  
+

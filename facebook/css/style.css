@@ -1,0 +1,100 @@
+.child1{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-color: blue;
+    padding-bottom: 2px;
+    padding-top: 5px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0; 
+}
+ul{
+    list-style-type: none;
+    margin-left:600px ;
+    margin-top:-39px;
+}
+ul li {
+    display: inline-block;
+    color:white;
+}
+ ul li a{
+     text-decoration: none;
+     padding:5px 20px;
+     transition: 0.6s ease; 
+ }
+ ul li a:hover{
+     background-color:rgb(205, 209, 214);
+     color: white;
+ }
+ ul li a:active{
+     background-color: white;
+ }
+
+ .logo img{
+     float: left;
+     width: 150px;
+     height: auto;
+ }
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.child2a{
+    background: gray;
+}
+.sidelistbox{
+    width: 190px;
+    height:400px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 8px;
+    position: fixed;
+
+
+}
+
+.middlelistbox{
+    width: 450px;
+    height:200px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 8px;
+}
+
+.middlelistbelowbox{
+    width: 450px;
+    height:2000px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.lastlistbox{
+    width: 300px;
+    height:115px;
+    border: 1px solid white;
+    background: white;
+    border-radius: 8px;
+}
+.lastbottomlistbox{
+    width: 300px;
+    height:auto;
+    border: 1px solid white;
+    background:white;
+    border-radius: 8px;
+    margin-top:10px;
+}
+.frindslist{
+width: 300px;
+height: 500px;
+background: white;
+position: fixed;
+right: 0;
+}
+.img{
+    border-radius: 50%;
+}

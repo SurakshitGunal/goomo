@@ -1,0 +1,136 @@
+
+.childa{ 
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.childa1{
+    background-color: blue;
+    display: flex;  
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    flex-direction: column;
+}
+.childa1a{
+    display: flex;
+    margin-left:300px;
+}
+.serchbar{
+padding-left:20px;
+margin-top: 5px;
+}
+.childa1b{
+display: flex;
+color: white;
+margin-left:200px; 
+font-size: 20px;
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid white;
+    margin-top:9px; 
+    margin-left:5px;  
+  }
+  .childa2{
+    background-color: rgb(226, 221, 221);
+    display: flex;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    padding-right: 150px;
+    box-shadow: 2px 2px gray ;
+    
+  }
+  .childb{
+      display: flex;
+      flex-direction: row;
+      max-width: 1200px;
+      margin: auto;
+      margin-top: 90px;
+
+  }
+  .childb1{
+      display: flex;
+      flex-direction:column ;    
+  }
+  .childb1a{
+      display:flex;
+      flex-direction:column; 
+      width:310px;
+      height:130px;
+      background-color: white;
+      margin-top: 10px;
+  }
+  .intro{
+      display: flex;
+      flex-direction:row; 
+      box-shadow: 2px 2px gray;
+  }
+  .offer1{
+      width: 310px;
+      height:70px;
+      box-shadow: 2px 2px gray;
+      margin-top: 1px;
+      background-color: white;
+  }
+  .childb1b{
+      width: 310px;
+      height: 400px;
+      background-color: white;
+      margin-top: 10px;
+      box-shadow: 2px 2px gray;
+  }
+  .offer2{
+    width: 310px;
+    height:30px;
+    box-shadow: 2px 2px gray;
+    margin-top: 1px;
+    background-color: white;
+} 
+.offer3{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    height:190px;
+    box-shadow: 2px 2px gray;
+    margin-top: 1px;
+    background-color: white;
+}
+.bb{
+    width:810px;
+    height:1750px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 2px 2px gray;
+}
+.personaldetails{
+    display: flex;
+    flex-direction:row;
+}
+.foot{
+    width:100%;
+    height:200px;
+    position: unset;
+    bottom: 0;
+    background-color: blue;
+}
+.entereddetails{
+    width: 750px;
+    display: flex;
+    flex-direction:row;
+    height:450px;
+    border: 1px solid black;
+    box-shadow: 2px 2px gray;
+    margin-top: 1px;
+    background-color: white;
+    margin: 20px;
+    margin-left:30px;
+    display:none;
+}
