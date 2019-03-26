@@ -1,11 +1,11 @@
 
  
  function show() {
-  
+   document.getElementById("entereddetails").style.display="entereddetails";
  }
  function fname(){
    var firstname = document.getElementById("fn").value;
-   document.getElementById("outputfn").innerHTML= "first name" + firstname;
+   document.getElementById("outputfn").innerHTML= firstname;
 
     var lastname = document.getElementById("ln").value;
     document.getElementById("outputln").innerHTML=lastname;

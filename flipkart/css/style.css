@@ -105,7 +105,7 @@ font-size: 20px;
 }
 .bb{
     width:810px;
-    height:1335px;
+    height:1750px;
     background-color: white;
     margin: 10px;
     box-shadow: 2px 2px gray;
@@ -122,12 +122,18 @@ font-size: 20px;
     background-color: blue;
 }
 .entereddetails{
-    width: 310px;
+    width: 750px;
     display: flex;
-    flex-direction: column;
-    height:190px;
+    flex-direction:row;
+    height:450px;
     border: 1px solid black;
     box-shadow: 2px 2px gray;
     margin-top: 1px;
     background-color: white;
+    margin: 20px;
+    margin-left:30px;
+}
+
+.display-none {
+    
 }
