@@ -1,0 +1,111 @@
+//1. Write a function to list down the keys present in a javascript object
+//example object
+
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+var person = {
+  firstName: "Goomo",
+  lastName: "Test",
+  salary: 5000,
+  empo: "g1211"
+};
+
+
+  document.getElementById("demo").innerHTML =
+  person.firstName +"," + person.lastName + ","  +  person.salary + "," + person.empo + "." ;
+</script>
+
+</body>
+</html>
+   
+
+
+//2. Write a function to print the total number of keys present in a javascript object
+//example object
+
+
+
+<script>
+    var object1 = {
+    fname: "Goomo",
+    lname: "Test",
+    salary: 1000,
+    empId: "G1121",
+};
+
+console.log(Object.keys(object1).length);
+</script>
+
+
+
+//3. Write a function to print the length of an array
+
+
+<script>
+    var x= [324,423,234,34,2342,234,234,2342,234,234];
+    y= x.length;
+    console.log(x);
+    console.log(y);
+    </script>
+
+
+//4. Write a function that takes an array and a multiplier and returns a new array with each of the number multiplied by the given multiplier
+
+
+
+<script>
+    var a=  [5,41,6,73,8];
+    console.log(a);
+   var b = a.map(x => x * 10);
+console.log(b);
+
+//5. Write a function to print out the name(fname and lname) combined for all the employees whose salary>1000
+
+
+
+<script>
+    var a =[
+    {
+        fname: "Goomo",
+        lname: "Test",
+        salary: 10000,
+        empId: "G1121",       
+    },
+    {
+        fname: "Aman",
+        lname: "Rawat",
+        salary: 900,
+        empId: "G1121",       
+    },
+    {
+        fname: "Apurva",
+        lname: "Srivastava",
+        salary: 1100,
+        empId: "G1121",       
+    },
+    {
+        fname: "Ajay",
+        lname: "Naggar",
+        salary: 100,
+        empId: "G1121",       
+    },
+    {
+        fname: "Ranveer",
+        lname: "Singh",
+        salary: 100,
+        empId: "G1121",       
+    },
+];
+for (let i in a) {
+    if (a[i].salary > 1000) {
+        console.log(a[i].fname +" "+ a[i].lname)
+    }
+}
+</script>
+
+
