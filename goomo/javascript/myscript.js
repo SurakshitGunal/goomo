@@ -74,17 +74,37 @@ function ok() {
    z.style.display = "block";
 }
 var airportname = [];
+var k=[]; 
+var d =[];
+var h =[];
 var josn = fetch('https://api.goomo.team/int/master/v2.0/flights/airports')
    .then(function (response) {
       return response.json();
    })
    .then(function (myjson) {
-      console.log("obj>>", myjson);
-      for (let i in myjson.airports) {
-         airportname.push(myjson.airports[i].an)
-         document.getElementById("ja").innerHTML=myjson.airports[i].an;
-         }
-      console.log("airportname")
-      console.log(airportname)
+      console.log(myjson);
+      z= Object.values(myjson.airports); 
+      console.log(z.length);
+       for(i=0;i<30/*z.length*/;i++) {
+         k.push(myjson.airports[i].an);
+         addElement(k[i])
+      }
+       console.log(k); 
+      //  for(i=0;i<1;i++){
+      //     h.push(k);
+      //     console.log(h);
+      //  }
+      
    });
+
+   function addElement (h) {
+      // for(i=0;i<k.length;i++ ) {
+      var newDiv = document.createElement("div"); 
+      var newContent = document.createTextNode(h); 
+      newDiv.appendChild(newContent);  
+      var currentDiv = document.getElementById("fltg10"); 
+      currentDiv.appendChild(newDiv)
+      // document.body.insertBefore(newDiv, currentDiv); 
+   //  }
+   }
 
