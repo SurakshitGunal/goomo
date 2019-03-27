@@ -1,57 +1,52 @@
 //1. Write a function to list down the keys present in a javascript object
 //example object
 
-<html>
-<body>
-
-<p id="demo"></p>
-
 <script>
-// Create an object:
 var person = {
   firstName: "Goomo",
   lastName: "Test",
   salary: 5000,
   empo: "g1211"
 };
+function key(a){
+console.log(Object.keys(a));
+};
+key (person);
 
-
-  document.getElementById("demo").innerHTML =
-  person.firstName +"," + person.lastName + ","  +  person.salary + "," + person.empo + "." ;
 </script>
-
-</body>
-</html>
-   
-
-
 //2. Write a function to print the total number of keys present in a javascript object
 //example object
 
 
 
 <script>
-    var object1 = {
+var object1 = {
     fname: "Goomo",
     lname: "Test",
     salary: 1000,
     empId: "G1121",
 };
-
-console.log(Object.keys(object1).length);
+function count(a){
+console.log(Object.keys(a).length);    
+}
+count(object1);
 </script>
-
 
 
 //3. Write a function to print the length of an array
 
 
-<script>
-    var x= [324,423,234,34,2342,234,234,2342,234,234];
-    y= x.length;
+let y =[];
+ var x= [324,423,234,34,2342,234,234,2342,234,234];
+ var v= [324,423,234,34,2342,234,234,234];
+    function Length(a) {
+    y = a.length;
+    
     console.log(x);
     console.log(y);
-    </script>
+    };
+    Length(v);
+    console.log(x)
 
 
 //4. Write a function that takes an array and a multiplier and returns a new array with each of the number multiplied by the given multiplier
@@ -59,13 +54,24 @@ console.log(Object.keys(object1).length);
 
 
 <script>
-    var a=  [5,41,6,73,8];
-    console.log(a);
-   var b = a.map(x => x * 10);
+var a=  [5,41,6,73,8];
+var a1=  [51,431,16,173,28];
+var g= 10 ;
+
+
+    function multiply(z,d){
+    // console.log(a);
+   var b =z.map(x => x * d);
 console.log(b);
+    };
 
+
+
+
+multiply(a1 , g);
+
+</script>   
 //5. Write a function to print out the name(fname and lname) combined for all the employees whose salary>1000
-
 
 
 <script>
@@ -73,7 +79,7 @@ console.log(b);
     {
         fname: "Goomo",
         lname: "Test",
-        salary: 10000,
+        salary: 9000,
         empId: "G1121",       
     },
     {
@@ -97,15 +103,50 @@ console.log(b);
     {
         fname: "Ranveer",
         lname: "Singh",
-        salary: 100,
+        salary: 10000,
         empId: "G1121",       
     },
 ];
-for (let i in a) {
-    if (a[i].salary > 1000) {
-        console.log(a[i].fname +" "+ a[i].lname)
+function fname(z){
+for (let i in z) {
+    if (z[i].salary > 1000) {
+        console.log(z[i].fname +" "+ z[i].lname)
     }
 }
+}
+fname(a);
 </script>
 
 
+6. Write a function to iterate through all the elements of an array and print them on a new line: use for Loop only.
+
+
+<script>
+var a = [ 20,30,55,67,89,8976];
+function ele(k){ 
+for (i=0;i<= k.length;i++){
+    console.log(k[i]);
+}
+}
+ele(a);
+</script>
+
+. Write a function to iterate through all the values of an object and print them on a new line: use forEach Loop only.
+
+<script>
+var person = {
+  firstName: "Goomo",
+  lastName: "Test",
+  salary: 5000,
+  empo: "g1211"
+};
+function cont(a){
+z= Object.values(a);
+console.log(z);
+for (i=0;i<= z.length;i++){
+    console.log(z[i]);
+}
+};
+
+cont(person);
+</script>   
