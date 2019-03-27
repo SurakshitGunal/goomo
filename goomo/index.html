@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title>GooMo</title>
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <script src="javascript/myscript.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header class="A">
+            <div class="B">
+                <div class=" logo"><a href="www.goomo.com"><img src="goomo.png"></a></div>
+                <div class="items">
+                    <div><h4> Corprate login </a></h4></div>
+                    <div><h4> Contact Us </a></h4></div>    
+                    <div><img src="a.png"></a></div>
+                    <div>   <img src="sign up.png"></a></div>
+                </div>
+            </div>
+        </header>
+        <div class="background" style="background-image:url('background.jpg'); background-repeat:no-repeat; ";>
+            <div class="wb">
+
+                <div class="firstdiv">
+                    <div><a id="flt" style="margin:auto;" onclick='flight("flight")'> Flights</a></div>
+                    <div><a id="htl" onclick='flight("hotel")' style="margin:auto; ">Hotels</a></div>
+                    <div><a id="pac" onclick='flight("packages")' style="margin:auto; ">Packages</a></div>
+                    <div><a id="vis" onclick='flight("visa")' style="margin:auto; "> Visa</a></div>
+                    <div><a id="gtc" onclick='flight("giftcard")' style="margin:auto; ">Gift Card</a></div>
+                 </div>
+               <div class="seconddiv">
+                   <div id="flight" style="display:none">
+                   <div class="sd1">
+                       <div class="orange"> RETURN</div>
+                       <div> ONE WAY</div>
+                       <div>MULTI CITY</div>
+                   </div>
+                   <div class="sd1a">
+                   <div class="sd2">
+                       <div class="fl1">
+                      <select>
+                            <option>Abidjan, CI - Felix Houphouet Boigny Airport (ABJ)</option>
+                            <option>Ahmedabad, IN - S. VallabhBhai Patel Airport (AMD)</option>
+                            <option>Amritsar, IN - Sri Guru Ram Dass Jee Airport (ATQ)</option>
+                            <option>Bangkok, TH - Suvarnabhumi International (BKK)</option>
+                            <option>Bengaluru, IN - Kempegowda International Airport (BLR)</option>
+                            <option>Chennai, IN - Chennai International Airport (MAA)</option>
+                            <option>Colombo, LK - Bandaranaike International Airport (CMB)</option>
+                            <option>Delhi, IN - Indira Gandhi International Airport (DEL)</option>
+                            <option>Doha, QA - Hamad International Airport (DOH)</option>
+                            <option>Dubai, AE - Dubai International Airport (DXB)</option>
+                            <option>Goa, IN - Dabolim Airport (GOI)</option>
+                            <option>Hong Kong, HK - Hong Kong International Airport (HKG)</option>
+                            <option>Hyderabad, IN - Rajiv Gandhi International Airport (HYD)</option>
+                            <option>Jaipur, IN - Jaipur International Airport (JAI)</option>
+                            <option>Kitoi Bay, US - Kitoi Bay (KKB)</option>
+                            <option>Kochi, IN - Kochi International Airport (COK)</option>
+                            <option>Kolkata, IN - Subhas Chandra Bose Airport (CCU)</option>
+                            <option>Kuala Lumpur, MY - Kuala Lumpur International Airport (KUL)</option>
+                            <option>London, GB - Heathrow Airport (LHR)</option>
+                            <option>Mumbai, IN - Chhatrapati Shivaji Airport (BOM)</option>
+                            <option>New York, US - John F. Kennedy International Airport (JFK)</option>
+                            <option>Pune, IN - Lohegaon Airport (PNQ)</option>
+                            <option>Quebec, CA - Quebec (XFZ)</option>
+                            <option>Singapore, SG - Changi Airport (SIN)</option >
+                            
+                      </select>
+                       </div>
+                       <div class="fl2"><button type="submit" style="border-radius:300px;" onclick="ok()" >ok</button></div>
+                       <div class="fl3">
+                       <select>
+                            <option>Abidjan, CI - Felix Houphouet Boigny Airport (ABJ)</option>
+                            <option>Ahmedabad, IN - S. VallabhBhai Patel Airport (AMD)</option>
+                            <option>Amritsar, IN - Sri Guru Ram Dass Jee Airport (ATQ)</option>
+                            <option>Bangkok, TH - Suvarnabhumi International (BKK)</option>
+                            <option>Bengaluru, IN - Kempegowda International Airport (BLR)</option>
+                            <option>Chennai, IN - Chennai International Airport (MAA)</option>
+                            <option>Colombo, LK - Bandaranaike International Airport (CMB)</option>
+                            <option>Delhi, IN - Indira Gandhi International Airport (DEL)</option>
+                            <option>Doha, QA - Hamad International Airport (DOH)</option>
+                            <option>Dubai, AE - Dubai International Airport (DXB)</option>
+                            <option>Goa, IN - Dabolim Airport (GOI)</option>
+                            <option>Hong Kong, HK - Hong Kong International Airport (HKG)</option>
+                            <option>Hyderabad, IN - Rajiv Gandhi International Airport (HYD)</option>
+                            <option>Jaipur, IN - Jaipur International Airport (JAI)</option>
+                            <option>Kitoi Bay, US - Kitoi Bay (KKB)</option>
+                            <option>Kochi, IN - Kochi International Airport (COK)</option>
+                            <option>Kolkata, IN - Subhas Chandra Bose Airport (CCU)</option>
+                            <option>Kuala Lumpur, MY - Kuala Lumpur International Airport (KUL)</option>
+                            <option>London, GB - Heathrow Airport (LHR)</option>
+                            <option>Mumbai, IN - Chhatrapati Shivaji Airport (BOM)</option>
+                            <option>New York, US - John F. Kennedy International Airport (JFK)</option>
+                            <option>Pune, IN - Lohegaon Airport (PNQ)</option>
+                            <option>Quebec, CA - Quebec (XFZ)</option>
+                            <option>Singapore, SG - Changi Airport (SIN)</option >
+                            
+                       </select>
+                       </div>
+                   </div>
+                   <div id="abc2" style="display:none;">
+                   <div class="ab2">
+                       <div class="fl4"> Departure Date:<input type="date"> </div>
+                       <div class="fl5"> Return Date:<input type="date"> </div>
+                       <div class="fl6"> Number Of Seats:<input type="number"> </div>
+                       <button class="fl7" type="submit">     Submit    </button>
+                   </div>
+                </div>
+                </div>
+                <div id="ja"></div>
+                </div>
+                <div id="hotels" style="display:none">
+                    <div class="hotels">
+                    <div class="m2">
+                <select style="width:911px;height:40px">
+                        <option>Goa, IN - Dabolim Airport (GOI)</option>
+                        <option>Hyderabad, IN - Rajiv Gandhi International Airport (HYD)</option>
+                        <option>Ahmedabad, IN - S. VallabhBhai Patel Airport (AMD)</option>
+                        <option>Bengaluru, IN - Kempegowda International Airport (BLR)</option>
+                        <option>Chennai, IN - Chennai International Airport (MAA)</option>
+                        <option>Kochi, IN - Kochi International Airport (COK)</option>
+                        <option>Kolkata, IN - Subhas Chandra Bose Airport (CCU)</option>
+                    
+                </select>
+                </div>
+                <div class="h2">
+                        <div> Booking from:<input type="date"></div>
+                        <div> Booking to:<input type="date"></div>
+                    <div> Number of rooms:<input type="number"></div>
+                    <div> <button type="submit" style="margin-left:100px;width:200px;height:50px" onselect="url('www.goomo.com')">Serch</button></div>
+
+                </div>
+                </div>
+                </div>
+                <div class="pack"  id="packages" style="display:none"></div>
+                <div class="vis"  id="visa" style="display:none" ></div>
+                <div class="gft" id="giftcard" style="display:none" ></div>
+                </div>
+                   <div class="box3">
+                       <div class="b31">
+                           <div> <img src="ab.png"></div>
+                           <div class="b31a">
+                               <div><a href="">Payback Bonza</a></div>
+                               <div><strong>Earn upto 10X Payback</strong></div>
+
+                           </div>
+
+                       </div>
+
+                   </div>
+
+               </div>  
+      
+            </div>
+
+        </div>
+    </body>
+</html>
+ 

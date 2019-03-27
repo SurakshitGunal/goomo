@@ -1,0 +1,258 @@
+.A{
+    width: 100%;
+    height:14%;
+    right: 0;
+    left:0;
+    top: 0;
+    background-color: white;
+    box-shadow: 2px 2px gray;
+    
+}
+.B{
+    display: flex;
+    flex-direction:row;
+    max-width: 1200px;
+    margin: auto;
+
+}
+ .logo{
+     margin-top: auto
+ }
+.items{
+    display: flex;
+    flex-direction:row;
+    margin-left: auto;
+    border: 2px solid transparent;
+    padding: 2px;
+
+}
+.hb{
+    border: 2px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    width: 80px;
+    
+}
+.hba{
+    display: flex;
+    flex-direction: column
+
+}
+.hb1{
+    display: flex;
+    flex-direction:row;
+}
+.orange{
+    color: orange;
+}
+.items div{
+    margin: auto;
+    padding-left: 8px;
+}
+.background{
+    width: 100%;
+    height:60%;
+    background-image:url("background.jpg");
+    display: flex;
+    margin-top:auto;
+    object-fit: fill;
+}   
+
+ .wb{
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+
+ }
+ .firstdiv{
+     display: flex;
+     flex-direction: row;
+
+ }
+ .firstdiv div{
+     display: flex;
+     flex-direction: row;
+ }
+ .seconddiv{
+     margin: auto;
+     background-color: white;
+     margin-left: 4px;
+     display: flex;
+     flex-direction: column;
+     width: 1200px;
+     height: 250px;
+ }
+ .sd1{
+     width: 100%;
+     height:20%;
+     display: flex;
+     flex-direction: row;
+
+ }
+ .sd1 div{
+     border: 2px solid transparent;
+     padding: 15px;
+     font-size: 18px;
+ }
+ .sd2{
+     display: flex;
+     flex-direction: row;
+     padding-top: 50px;
+
+ }
+ .sd2 input{
+     width: 500px;
+     height: 40px;
+     margin: auto;
+     padding-left: 20px;
+
+ }
+ .firstdiv div{
+   
+     background-color: transparent;
+     color: white;
+ }
+ .firstdiv a {
+     background-color: blue;
+   padding-left:70px;
+   padding-right: 70px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+     color: white;
+ }
+ .firstdiv a:hover{
+     background-color: white;
+     border-top: 2px solid orange;
+     color: orange;
+  
+ }
+.selectdiv{ 
+    background-color: white !important  ;
+    border-top: 2px solid orange  !important;
+    color: orange  !important;
+
+}
+.box3{
+    width: 100%;
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;  
+    border-top: 2px dotted gray;
+    padding-bottom: 40px; 
+    float: left; 
+}
+.b31{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto;
+}
+.b31a{
+    display: flex;
+    flex-direction: column;
+}
+.flight{
+   
+}
+.hotels{
+    width: 1200px;
+    height: 250px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.h2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top:30px;
+    margin: a
+    uto;
+
+}
+.m2{
+    margin-left:20px;
+    padding-top:50px;
+
+}
+.sd1a{
+    display: flex;
+    flex-direction: column;
+}
+.ab2{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.ab2 div{
+    margin: 8px;
+}
+.pack{
+    width: 1200px;
+    height: 250px;
+    background-color: blueviolet;
+}
+.vis{
+    width: 1200px;
+    height: 250px;
+    background-color:gold;
+}
+.gft{
+    width: 1200px;
+    height: 250px;
+    background-color: green;
+}
+.b31 div{
+    margin: 2px;
+}
+.fl1{
+    margin-left: 20px;
+}
+.fl2{
+    margin:auto;
+    padding-bottom:20px;
+}
+.fl3{
+    left:40px;
+     margin-right:10px;
+}
+@media screen and (max-width:800px){
+    .seconddiv{
+        width:100%;
+    }
+
+
+}
+@media screen and (max-width:700px){
+    .sd2{
+        flex-direction: column;
+        margin: 0;
+
+    }
+    .ab2{
+        flex-direction: column;
+    }
+    .seconddiv{
+        height:auto;
+    }
+    .ab2{
+        padding: 0;
+        display: block;
+
+    }
+    .fl1{
+        margin:0;
+        left: 0;
+    }
+    .fl2{
+        margin: 0;
+        padding: 0;
+    }
+    .fl3{
+        margin:0;
+        left:0;
+    }
+}
+
