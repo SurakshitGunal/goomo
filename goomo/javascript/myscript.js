@@ -106,5 +106,9 @@ var josn = fetch('https://api.goomo.team/int/master/v2.0/flights/airports')
       currentDiv.appendChild(newDiv)
       // document.body.insertBefore(newDiv, currentDiv); 
    //  }
+   };
+   function airportnameshow(data){
+      var k= document.getElementById("fltg10");
+      k.style.display="block";
    }
 

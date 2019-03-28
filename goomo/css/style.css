@@ -258,4 +258,10 @@
         left:0;
     }
 }
-
+.fltg100{
+    border: 2px solid white;
+    margin-left: 20px;
+}
+.fltg10{
+    display: none;
+}
