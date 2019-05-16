@@ -15,20 +15,11 @@ class Hotels extends React.Component{
           .then(response => response.json())
           .then(data => this.setState({ data }));
       }
-    
-      airpotName = (data) => {
-        let temp = []
-        for (let i=0;i<30;i++) {
-          temp.push(<p>{data[i].an},{data[i].con}</p>)
-        }
-        return temp
-      }
   render() {
     const { data } = this.state
     return (
       <div>
       <ApiHotels airpotName = {data && data.airports} />
-      {/* {data && this.airpotName(data.airports)} */}
       </div>
     )
   }

@@ -13,6 +13,7 @@ class Flights extends React.Component{
             name:this.input.current.value
         })
         event.preventDefault();
+        // event.stopPropagation();
       }
     render () {
         return(
